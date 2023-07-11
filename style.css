@@ -257,18 +257,18 @@
 }
 
 .subcription {
-   
+
     margin-top: 128px;
     background-color: white;
     width: 1440px;
-    height: 449px;   
+    height: 449px;
     background-image: url('./Flower\ Asset/Rectangle 9.png');
 }
 
 
 
-.subcription-request {  
-    padding-top: 122px;  
+.subcription-request {
+    padding-top: 122px;
     margin-top: 122px;
     color: #272727;
     text-align: center;
@@ -277,30 +277,72 @@
     font-weight: 800;
     line-height: normal;
 }
-.coupon-text{
+
+.coupon-text {
     color: rgba(100, 97, 97, 0.356);
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    
+
 }
 
-.input-box{
-width: 700px;
-height: 64px;
-margin-left: 287px;
-margin-bottom: 121px;
-border-style: none;
-border-radius: 8px;
-background: #FFF;
-color: white;
+.input-box {
+    width: 700px;
+    height: 64px;
+    margin-left: 287px;
+    margin-bottom: 121px;
+    border-style: none;
+    border-radius: 8px;
+    background: #FFF;
+    color: white;
 }
 
-.subscribe-btn{
+.subscribe-btn {
     margin-bottom: 121px;
     margin-right: 287px;
 }
-.input{
+
+.input {
     display: flex;
     align-items: center;
+
+
+}
+
+.footer-content {
+    width: 1922px;
+    height: 449px;
+    color: white;
+    background: #111010;
+
+}
+
+
+
+    
+
+
+.shop-tittle {
+    justify-content: center;
+    margin: 128px 831px;
+    padding-top: 80px;
+    color: white;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+
+}
+
+.shop-name {
+    color: #E55473;
+}
+.copyright{
+    justify-content: center;
+    margin: 128px 831px;
+    color: rgba(243, 8, 8, 0.979);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
 }
