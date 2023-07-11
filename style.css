@@ -1,61 +1,163 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
 
-.banner{
+.banner {
     background-color: #FCEEF1;
     height: 850px;
     width: 1920px;
-    
+
 }
-.banner{
+
+.banner {
     display: flex;
     justify-content: space-around;
 }
 
-.banner-content{
+.banner-content {
     margin-top: 200px;
     margin-bottom: 150px;
     margin-right: 50px;
     margin-left: 200px;
 }
-    
-.banner-text{
+
+.banner-text {
     font-size: 80px;
-    
+
 }
-.banner-description{
+
+.banner-description {
     font-size: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
 
 }
 
-.banner-img{
+.banner-img {
     margin-top: 50px;
     margin-right: 200px;
     height: 800px;
     width: 635px;
 }
 
-.primary-btn{
+.primary-btn {
     background-color: #E55473;
     color: #FFFFFF;
     text-align: center;
     justify-content: center;
     height: 40px;
-    width: 140px;    
+    width: 140px;
     border: 0px;
     padding: 20px 43px;
     border-radius: 25px;
     font-weight: bold;
     font-size: 30px;
     list-style: none;
-    
+
 }
-.primary-btn:hover{
+
+.primary-btn:hover {
     background-color: #7aabf5;
-    color:red;
+    color: red;
+}
+
+.section-tittle {
+    margin-top: 150px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal
+}
+
+.tittle-description {
+    font-size: 18px;
+    color: #2727278e;
+
+}
+
+.flowers {
+    display: flex;
+    justify-content: center;
+    width: 1920px;
+    height: 4867px;
+    margin: 80px 0px 240px;
+    background: #FFF;
+}
+
+
+
+.img-flower1 {
+    width: 310px;
+    height: 428px;
+    padding-top: 110px;
+    padding-right: 78px;
+    padding-left: 76px;   
+    margin-bottom: 0px;
+}
+
+.img-flower2 {
+    width: 370px;
+    height: 370px;
+    padding-top: 117px;
+    padding-right: 47px;
+    padding-left: 47px;
+    padding-bottom: 51px;
+    margin-bottom: 0px;
+}
+
+.img-flower3 {
+    width: 314px;
+    height: 471px;
+    padding-top: 67px;
+    padding-right: 75px;
+    padding-left: 75px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+
+.img1-bg {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    margin: 24px;
+
+}
+
+.img2-bg {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    margin: 24px;
+
+}
+
+.img3-bg {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    margin: 24px;
+
+}
+
+.flower-text {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: bold;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.flower-text:hover {
+    background-color: #7aabf5;
+    color: red;
 }
