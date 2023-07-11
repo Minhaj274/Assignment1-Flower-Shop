@@ -161,7 +161,7 @@
 .signup-section {
     vertical-align: top;
     padding: 0px;
-    margin:0px;
+    margin: 0px;
     width: 1922px;
     height: 620px;
     border-radius: 8px;
@@ -181,15 +181,22 @@
     line-height: normal;
 
 }
-.signup-text{   
-    margin-left: 423px;
-
-}
 
 .highlight-text {
     color: #E55473;
 
 }
+
+.signup-text {
+    margin-left: 423px;
+
+}
+
+.signup-btn {
+    margin-left: 190px;
+
+}
+
 
 .signup-offer {
     width: 594px;
@@ -199,12 +206,101 @@
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+    margin: 24px;
 }
 
-.offer-img{
+.offer-img {
     width: 318px;
     height: 420px;
     margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 429px;
+}
+
+
+.social-media {
+    margin: 128px 240px;
+    background-color: white;
+}
+
+.media-text {
+    justify-content: center;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.media-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px;
+}
+
+.social-photos {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+
+}
+
+.scl-img {
+    width: 342px;
+    height: 396px;
+}
+
+.subcription {
+   
+    margin-top: 128px;
+    background-color: white;
+    width: 1440px;
+    height: 449px;   
+    background-image: url('./Flower\ Asset/Rectangle 9.png');
+}
+
+
+
+.subcription-request {  
+    padding-top: 122px;  
+    margin-top: 122px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.coupon-text{
+    color: rgba(100, 97, 97, 0.356);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+
+.input-box{
+width: 700px;
+height: 64px;
+margin-left: 287px;
+margin-bottom: 121px;
+border-style: none;
+border-radius: 8px;
+background: #FFF;
+color: white;
+}
+
+.subscribe-btn{
+    margin-bottom: 121px;
+    margin-right: 287px;
+}
+.input{
+    display: flex;
+    align-items: center;
 }
